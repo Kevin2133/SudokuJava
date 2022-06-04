@@ -23,7 +23,9 @@ public class App{
         }
 
         for(int num = 1; num < 10; num++){
+            System.out.println(num + "=  " + b.fits(num, i, k));
             if(b.fits(num, i, k)){
+                System.out.println(num + "=  " + b.fits(num, i, k));
                 b.setNum(num, i, k);
                 b.print();
                 System.out.println("i= " + i + ", k= " + k);
